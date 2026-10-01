@@ -1,1 +1,54 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th style="color: red;">1ºDAM/DAW</th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIÉRCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+        </tr>
+        <tr>
+            <th>09:00-10:00</th>
+            <td rowspan="3" style="background-color: pink;">Base de datos</td>
+            <td rowspan="3" style="background-color: yellow;">SisInf</td>
+            <td rowspan="3" style="background-color: orange;">Programación</td>
+            <td rowspan="2" style="background-color: orange;">Programación</td>
+            <td rowspan="3" style="background-color: pink;">Base de datos</td>
+        </tr>
+        <tr>
+            <th>19:00-11:00</th>
+        </tr>
+        <tr>
+            <th>11:00-11:50</th>
+            <td style="background-color: blue;">Optativa</td>
+        </tr>
+        <tr style="background-color: grey;">
+            <th  style="color: red;">11:50-12:10</th>
+            <th colspan="5" style="color: red;">RECREO</th>
+        </tr>
+        <tr>
+            <th>12:10-13:00</th>
+            <td rowspan="3">IPE</td>
+            <td rowspan="3" style="background-color: orange;">Programación</td>
+            <td rowspan="3" style="background-color: yellow;">SistInf</td>
+            <td rowspan="3" style="background-color: aqua;">Lenguaje Marcas</td>
+            <td rowspan="2" style="background-color: green;">Entorno Desarrollo</td>
+        </tr>
+        <tr>
+            <th>13:00-14:00</th>
+        </tr>
+        <tr>
+            <th>14:00-15:00</th>
+            <td style="background-color: blue;">Optativa</td>
+        </tr>
+    </table>
+</body>
+</html>
